@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 31" width="30" height="31">
+	<title>Footer</title>
+	<defs>
+		<image  width="30" height="31" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAAXNSR0IB2cksfwAABSVJREFUeJy1l2tQlGUUx5dMi8DKvJAIQaEICAhJXgpvIFTTlz40Tc00o9NM00yTZoMJjnkjMTXM5KJyZ8WQu2imNtM0TTN88EOjeakmFVB2kcu63HYXdxf4d87z7rvPvmBr2eyH/7zvu+d5/r9zznOZWd31j3W6pnTdOtIFEnwsZqxjpq4xTbfjlw+CYa57C2j5yKdiBrOYqWtM13UNf/8OcO5N4LvXfStiMIuZ3GbgzBvA6dcUnXoVaE4HTqZJ8Tf/ro75PyIWMxUwm7qAQ0fjYfh8Gto3+eN2ViC6ds2COfd52PVLgMZUbSIPKQluTlPUlErQp2H7/Swcd67gXmsLBi9UwHQqE7eyI9Ge8ThMe0PhrFpKSaRQEmvk3P8gCWYDVsNq0I4DnNb7ytF1Debz2WjbGozePcEygaZU6fEvJMFNKYrqV3oFqxqzmUQCNzc9SR0IAepWUAKrpc8DJMGNqxTVr4CRWm290vxAOGtkwICu8rfRkx0Epz5JJO728iIJJqBQ3XJYCqNg3PoUbu9LhDE/BaamjbD9ed5rAlx9J82xFEQBtcnS7x8kwXXJUrWvACeW4V5xHKwF82HeFwoD7e7WrBnobdggqrwf3PJbI25mBGIobx5Q87LWc5wkmAeqIiiqadMcp+NTtcT1XIyR8kSYdj8r1tX8Qw5gH5wA59Nw45MpGD6yQPHx9PWQBJ9Yqqh6CYYOzYVhy1TcynhMtG8gNwwjZQsJ/pKQozgWPTtnwHBw+X2rH2gpQvf2Z5Tx5Of29pAEVy9WVJVE0EDYrp2F3XAJlot16Na/h9YtQQSbDvuRaEC/iPQiVR+E9p0RcHReBhxWjboq3xVx9nN7e0iCjycpIkNxnMYZjQ33of/nb9C6eRpMX8wCKhKAykT07Zkt4CP9Bs14/uazPpwfCRxbJP1dkuCqRYr0tJOpzdbLzRPgqqGxIA09O6YD5QkiAVP2TBgOrRTJeY4VLd82jcYkSn+XJPhYoiJ9AiwHwwkeSJW8IM6o5VIDGVmk7g2gu2otwWkdy+KEeundfG7XhHHt28NhL4wUvm4GSYL1C6Uq4qmaODgK5mFw7xx0ZgWgY38S7LcuaEyNeXTGd80ASmPhJHNehpH+Dg2878f9Iin282RIcGW8VhU0sJSORAmpKBr9OXSMMgJgvXrabTo62CnOtj0vQow10ebrrV+vAY+Y23F9wySgOEbjL8EMUlUWC2vuc+ikdt9Y70cVB8JKl4iFqucz7Fl5/08H0MPrWBKD0cPzRXzM2quBdxxYhuGvw6jqWDdDgssXKCqNgWX/HLEjLRdracOYxZO/B2kH99OO5rarphwXLS6k26ooCp2ZARP2xN0zW3GXusHeKmciuCQaxswnNC1l2f44D8Nn/sDhSLHmll+r3bHub9/HQA6d2WJakt0z0VPzoWYuJ8IJsbdX8M0Nj2B0qFszmSvjtnNVg1/OFrvdbUwd4WRQHAVbLt3rB5M1cx1dV9H+6WSR2MNVvNlfmDvz54rWqzFn719o2/ioMHYWRKBtW6hmLhfBxXgHq2tMk62XT4qJ/OTvoX3ByjqpyXnEjVyxGsuSMU3ca6tV+FchwoCvT37yt3tzlFE8N0SYKfEA8c2/j49NiHsFu+AiQ1UeO1KFu8eUxmhMxTv/XuwSv5dp5wtwQ5rujo2vtfFwH4lZzNSVr/Lb27J2KobpAvA1lBnMYqZu8pQpgQXJfoU1a3R9vv7TxgxmMZPBk/iFNJsURgr3kcJcDGZN+ht5Ohhrj481ewAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Contact Us">
+			<g id="social media icons">
+				<use id="rss" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

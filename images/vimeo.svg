@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 31" width="30" height="31">
+	<title>Footer</title>
+	<defs>
+		<image  width="30" height="31" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAAAXNSR0IB2cksfwAAApRQTFRFVNXzAH2lAH2lAH2lAHykFZO4QsLiVNXzAH2kRMnrOsrwM8fvNcfvMsbvMcbuMMXuKsDtFq/pDqjnHrbqLMLtGLHpB6PlAZ3kA57kFK3oKL7sLsTuGbLqDKHlidLzteP3X8HuE6zoHbXqfc3x2fD7/f7/9Pv+ldb0Bp7lKcDtLcPuFKzoLazpYsHuGrLqG7PqEqHmxOj5g87yFa3oK8LtJLvrEannXL7t9Pr+zez6B5/kKsHtBprj2e/7Bp3jILbqDqTlktPz/P7/Ep3kJ77sGK/oaMHu9/z+AZfiKMDtKL/tA5biptv1RbLqHLTqntf0mNXz1u77AZbiJr/sDaLkm9XzteH3M6nnx+j5bsLuFKrnHLLoCp3jCJrhIaHlyun5BpriJb7sGrDoBpTiBpfiDZ7iOaromNPzDaHlJLzrIbnqFZrjfcfwEKPlI73sIrvrH7bpBZbixOb40Or6BZfiFavnXLjsGJrkHLPpIrzrD6Hjd8Pu+f3/EpbhILnqB5fhx+b4C5ziIbrqILvrGa/oJJzkTa/pFqznD6LlXLbrzej5A47fGrLoH7rrHrjqA5Dg3/D7oNXzC5rjJJvk6/b9M6LlD6DkHbnrCZjilc7yhsfwCJXhG7XqHLnqEKTkUK7ouN/2A4veFazmHLjqG7jqF7HnEo/g9vv+2e36D47gD6DjGrbpGrfqGbbpBpDgstv17ff9J5njC5niGbTpD6HkU67pLZvkGLPpGLLoA4je0+r6x+T4GJHhCpbhGbbqDJzjJJfjgMPvCYvfDJviGrbqCpfhAYneAYjeB5HfEqjkGLTpFa3mEaTkFavmF7DoGbXpAHyjF7HjAHKWCI65GLLkBQYGAWuNAHmfBQYGBQYGBQYGBQYGkSOLQwAAANx0Uk5TAGDJ/3/////o/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+f/iP//DJXvAxkfIOXwYYMAAAHwSURBVHicY2BgZGLGAZgYGRhYWNnYcQA2VhYGDk4ubhyAi5ODgZmHFyfgYWZg5sMDgNL8ECAgKCQMYYmIiolLSEqBmEBpaTCQkZWTV1AEsZRklVVU1dQ1NIFsoLQWCGjrqKiqqurqaWnpGxiqgoCRMVAYKG1iYmJqZm4BErK0MrG2sQTLqtraASWA0tbW9g6OThDg7OLqBmW6e1hbWwOlPb28faBCTr5+Dv4BgWCmRZCnpydQOjg4JDQsPAIsFhkVHRMbB2bGJwQHBwOlExOTklNS08Bi6RmZWdHZYGZObmJiIlA6Ly9fuKCgsAgkVlySl1daBja7vCIvLw8oXQkC+VXVIMGa2rrK+gYQq7qxCSgMlG4Gg5ZWsJFt7R2dILqruwckCpTuBYO+/gkg4YmTJk8BmTJ1Wh9IFCg9HQJmzASbPgsk6zRr9hywIFB6LgTMm+8EBwsWLloMFgRKL4GApcuWw2RXrFy1GiIIlF4DAWvXrYfKbti4aTNUECG9ZstWiOyEbbO3r8GU3rFzF0h29569O9Zgkd63/8AEpw0HDx3ecQSb9JrtR49tPH7i5Kk1a7BKr9l++szZc+fX4JJes+bIGlTAzHDh4hqc4OIFhkuXr+CSvXL5EsPVa9dxZcHr164y3Lh689ZtrODWzas3AC3GV++p1voxAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Contact Us">
+			<g id="social media icons">
+				<use id="vimeo" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

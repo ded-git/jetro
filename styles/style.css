@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+  background-image: url("./images/bg.png");
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  height: 80px;
+}
+.header__logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 36px;
+  color: #e8603c;
+  text-transform: uppercase;
+  letter-spacing: 0.7mm;
+  font-weight: bold;
+}
+.header__logo span {
+  color: #f3af9d;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+  list-style-type: none;
+}
+.header .menu__link-item {
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #b9b9b9;
+  transition: all 0.7s ease-out;
+}
+.header .menu__link-item:hover {
+  color: #e8663c;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: 1fr 940px 1fr;
+  grid-gap: 10px;
+}
+.slider__left, .slider__right {
+  background: #f3b29d;
+  height: 61px;
+}
+.slider .i1 {
+  background-image: url("../images/i1.png");
+}
+.slider .i2 {
+  background-image: url("../images/i2.png");
+}
+.slider .i3 {
+  background-image: url("../images/i3.png");
+}
+.slider .i4 {
+  background-image: url("../images/i4.png");
+}
+.slider .i5 {
+  background-image: url("../images/i5.png");
+}
+.slider .i6 {
+  background-image: url("../images/i6.png");
+}
+.slider__for {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.slider__for .slider-img-for {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.slider__for .slick-arrow {
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  opacity: 0.5;
+  transition: 0.4s all;
+}
+.slider__for .slick-arrow:hover {
+  opacity: 0.7;
+}
+.slider__for .slick-prev {
+  left: 25px;
+}
+.slider__for .slick-next {
+  right: 25px;
+}
+.slider__for .slider-item {
+  position: relative;
+}
+.slider__for .item-text {
+  padding: 10px;
+  position: absolute;
+  width: 410px;
+  height: 120px;
+  left: 35px;
+  bottom: 35px;
+  background-color: rgba(232, 102, 60, 0.8);
+  color: #fff;
+}
+.slider__for .item-text h3 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.slider__for .item-text p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+}
+.slider__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.slider__nav-img {
+  width: 140px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+}
+.slider__nav-img + .slider__nav-img {
+  margin-left: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+.features__item {
+  max-width: 275px;
+}
+.features .title {
+  letter-spacing: 0.2mm;
+  position: relative;
+  color: #e8663c;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+  line-height: 1.333;
+  max-width: 200px;
+  padding-left: 32px;
+  margin: 40px auto 30px;
+}
+.features__portfolio-title::before {
+  position: absolute;
+  left: -32px;
+  content: "";
+  background: url(../images/portfolio.svg);
+  width: 46px;
+  height: 46px;
+}
+.features__work-title::before {
+  position: absolute;
+  left: -32px;
+  content: "";
+  background: url(../images/work.svg);
+  width: 49px;
+  height: 40px;
+}
+.features__connected-title::before {
+  position: absolute;
+  left: -32px;
+  content: "";
+  background: url(../images/connected.svg);
+  width: 41px;
+  height: 40px;
+}
+.features__text {
+  font-size: 12px;
+  font-family: "Helvetica", sans-serif;
+  color: #414141;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.features__link {
+  position: relative;
+  background-color: #e8663c;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 12px;
+  text-decoration: none;
+  overflow: hidden;
+}
+.features__link::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #e8663c;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+}
+.features__link:hover:after {
+  width: 275px;
+}
+
+.recent-works {
+  margin-top: 45px;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 45px;
+}
+.recent-works__title {
+  position: relative;
+  letter-spacing: 0.2mm;
+  display: inline-block;
+  color: #e8663c;
+  font-size: 18px;
+  line-height: 1.333;
+  margin-bottom: 20px;
+}
+.recent-works__title::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/rw-line.jpg);
+  width: 807px;
+  height: 19px;
+  left: 133px;
+}
+.recent-works__posts {
+  display: flex;
+  justify-content: space-between;
+}
+.recent-works .post {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.recent-works .post__description {
+  padding: 15px 15px 15px;
+  border: 1px solid #b9b9b9;
+  border-top: none;
+}
+.recent-works .post__title {
+  font-size: 16px;
+  color: #b9b9b9;
+  line-height: 1.125;
+}
+.recent-works .post__text {
+  font-weight: 600;
+  font-size: 11px;
+  color: #e8663c;
+  line-height: 1.636;
+}
+
+.footer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 940px 1fr;
+  justify-content: center;
+  height: 260px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 12px;
+}
+.footer__left, .footer__right {
+  height: 260px;
+  background: #f3b29d;
+}
+.footer h3 {
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.1mm;
+  margin-bottom: 25px;
+}
+.footer span {
+  color: #f1b09b;
+  line-height: 1.167;
+}
+.footer__inner {
+  padding: 30px 40px 0;
+  background-color: #e8663c;
+  width: 940px;
+  font-family: "Helvetica", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__about, .footer__contact {
+  max-width: 260px;
+}
+.footer__about p + p {
+  margin-top: 15px;
+}
+.footer__twitter {
+  max-width: 220px;
+}
+.footer__twitter .twitter__text {
+  margin: 15px 0 5px;
+}
+.footer__text-follow {
+  margin-top: 20px;
+}
+.footer__contact .footer__text {
+  margin-bottom: 15px;
+}
+.footer__mail, .footer__phone {
+  display: block;
+  color: #fff;
+}
+.footer__links {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

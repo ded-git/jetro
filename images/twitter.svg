@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 31" width="30" height="31">
+	<title>Footer</title>
+	<defs>
+		<image  width="30" height="31" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAMAAADHso01AAAAAXNSR0IB2cksfwAAArJQTFRFJYSdJYSdJYSdJYSdrOv/JYOcRp21j9XqrOv/JYScmd/2meT/lOP/leT/k+P/kuP/keP/kOL/j+L/juL/juH/iN//d9f/aND/eNf/jOH/i+D/iuH/hN7/Zc//c87/yOv/wuj/ldv/etn/jeH/gtz/dtb/Ys3/b9P/gNz/id//h9//i9T/////3PH/WcH/VMb/e9n/iuD/i+H/edj/od//8Pr/es7/TsL/ZM7/ht//ieD/d9j/Sr3//P7//v///f7/yev/TcL/fdr/VMT/9/z/9Pv/p93/R7z/YMz/f9v/V8f/0+7/4/T/TsH/e9r/iOD/gt7/Ys//QLf/3vL/+v3/ruD/Sr7/W8r/Srv/pd3/X8z/gd3/hd//g97/ZdD/xOj/8/r/PLH/pdr/9vv/M7H/Wsn/adL/fNv/btT/asj/+/3/tOH/reD/teX/b9X/W8n/PbL/wOT/tuL/Rbr/a9L/gd7/ft3/atL/ltf/7fj/q+H/atP/f93/gN3/c9b/T8P/0+3/a8P/Tb7/Xcr/ddj/etz/a9T/Qr3/W73/8Pn/Pbr/bdX/edr/fNz/etr/etv/fdz/Yc7/mNb/esr/XMv/eNn/ZdH/b9b/dtn/c9j/L67/Ybv/2e//RL3/cdf/e9v/b9T/lNv/lNf/Prj/Rr3/QLn/N6//j8//9fv/7ff/OrP/ZtD/eNr/Vsj/3/L/v+X/4fL/+Pz/1O3/ObP/ddn/eNv/edv/d9r/bNT/T8T/Y8L/hc7/Qbv/cNb/Xcv/Pbb/gsz/4vP/5PT/j9H/O7X/Vcf/bdT/dtr/WMr/Rbz/SLb/gMv/rd3/yOj/u+P/pdn/RLX/RLz/Vsn/Z9L/W8v/ScH/SsH/UcX/aNP/dNn/JYObcNL1IniPPp25cdP2BQYGIHGGJICYBQYGBQYGBQYGBQYGMbsEyQAAAOZ0Uk5TAGDJ/wB/////6P/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////n/4j//wyV7wMZHyD8eD3jAAACHElEQVR4nGNgYGRixgGYGFkYWNnYOXAAdjZWBk4ubh4cgJuLk4GZlw8n4GVmYOZHBQKCQsJCAlAOUFoQBYiIiomLS4gKQXhAaSEhIUkpaUlhIRAQkZGVk1dQVIJygdLKypIqqmrqGppSQJaWuLaOjq6evoGhpDIQAKUlJY2MTUzNzC0MLA2trG1sdezsbR0cra0kgQAobWho5eTsouPq5u5h7OnlrQMGPr5+ooaGhkBpf3//gMCgYB2dkNCw8Ah7iLROZFR0jJY/UNrS0jI2Lt4WJJaQmASV1UlOSU1LjwFKx8TExGZkgqV1smxh0jrZObl5sUDp2NjYAL/8gkIdVGBXVFwSDZQuBYKy8oosdOnKquoaoHQtENTU1Tck2KPINjY1t4Cky0Cgta29A0V/Z1d3T28ZULqvpz99Qm/PxEko0pOn9EyYMAEoPbV82vQZM2ZOnDUbyfQ5c+fN7+3tBUovWLho8dwlS5ctX4GQXblq9Zr5QACUnr42NGHd+g0bkUzetDlwy9ZtQACU3r5j564EZGtX7N4TB5EFSW/bvnff/gMHYZKHDh85euw4RBYsvW3Nlh0nTp46febsufMHLly8VL1lzbZtSNJABTPmXb6y8+q161duzNuyfds2NOlt27auOb7l5pYtx9dsQwZwaeyAmeHWbdyyt28x3Ll7D5fsvbt3GO4/eIgrCz58cJ/h0f3HT55iBU8e338EAJY5P4BpqGH7AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Contact Us">
+			<g id="social media icons">
+				<use id="twitter" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
