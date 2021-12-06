@@ -36,6 +36,19 @@ a {
 .header__logo span {
   color: #f3af9d;
 }
+.header .menu-icon {
+  height: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header .menu-icon .icon-item {
+  opacity: 1;
+  width: 30px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #b9b9b9;
+}
 .header .menu {
   display: flex;
   justify-content: space-between;
@@ -52,6 +65,9 @@ a {
 }
 .header .menu__link-item:hover {
   color: #e8663c;
+}
+.header .header__menu-icon-item.menu-icon-item.active {
+  padding: 13px 0;
 }
 
 .slider {
@@ -117,7 +133,7 @@ a {
 .slider__for .item-text {
   padding: 10px;
   position: absolute;
-  width: 410px;
+  max-width: 410px;
   height: 120px;
   left: 35px;
   bottom: 35px;
@@ -226,27 +242,34 @@ a {
   margin-top: 45px;
   font-family: "Bebas Neue", cursive;
   margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.recent-works__title > h3 {
+  width: 170px;
+  display: block;
 }
 .recent-works__title {
-  position: relative;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
   letter-spacing: 0.2mm;
-  display: inline-block;
   color: #e8663c;
   font-size: 18px;
-  line-height: 1.333;
   margin-bottom: 20px;
 }
-.recent-works__title::after {
-  position: absolute;
-  content: "";
+.recent-works__title-img {
   background-image: url(../images/rw-line.jpg);
-  width: 807px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
   height: 19px;
-  left: 133px;
 }
 .recent-works__posts {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .recent-works .post {
   display: flex;
@@ -299,7 +322,7 @@ a {
 .footer__inner {
   padding: 30px 40px 0;
   background-color: #e8663c;
-  width: 940px;
+  max-width: 940px;
   font-family: "Helvetica", sans-serif;
   display: flex;
   justify-content: space-between;

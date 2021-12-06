@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +9,8 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
-
 <body>
     <div class="wrapper">
         <header class="header">
@@ -19,6 +18,11 @@
                 Jet<span>ro</span>
             </div>
             <nav class="header__menu">
+                <div class="header__menu-icon menu-icon">
+                    <div class="header__menu-icon-item icon-item icon-item-hidden"></div>
+                    <div class="header__menu-icon-item icon-item"></div>
+                    <div class="header__menu-icon-item icon-item icon-item-hidden"></div>
+                </div>
                 <ul class="header__menu-list menu">
                     <li><a href="#" class="menu__link-item">Home</a></li>
                     <li><a href="#" class="menu__link-item">About us</a></li>
@@ -151,9 +155,12 @@
             </div>
         </section>
         <section class="recent-works">
-            <h3 class="recent-works__title">
-                Recent works
-            </h3>
+            <div class="recent-works__title">
+                <h3>
+                    Recent works
+                </h3>
+                <div class="recent-works__title-img"></div>
+            </div>
             <div class="recent-works__posts">
                 <a href="">
                     <div class="post post1">
@@ -208,7 +215,7 @@
                     ius an. Solet everti
                     definitionem id ius, sonet oporteat cu vim.</p>
             </div>
-            <div class="footer__twitter twiiter">
+            <div class="footer__twitter twitter">
                 <h3 class="footer__title">twitter widget</h3>
                 <div class="twitter__fragment">
                     <p class="twitter__text"><span>@pixelmater</span> What an awesome design with great functionality :)
@@ -222,7 +229,7 @@
                 </div>
                 <p class="footer__text-follow">Follow <span>@bestpsdfreebies</span></p>
             </div>
-            <div class="footer__contact">
+            <div class="footer__contact contact">
                 <h3 class="footer__title">contact us</h3>
                 <p class="footer__text">Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas
                     adolescens vim te, per at tritani aperiri.
