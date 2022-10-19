@@ -1,4 +1,6 @@
 $(".slider__for").slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
@@ -28,7 +30,6 @@ $('.slider__nav').slick({
         {
             breakpoint: 941,
             settings: {
-                // variableWidth: false,
                 slidesToShow: 5,
                 slidesToScroll: 1,
                 centerMode: true,
